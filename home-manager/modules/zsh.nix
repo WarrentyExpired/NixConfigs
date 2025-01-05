@@ -6,7 +6,7 @@
     syntaxHighlighting.enable = true;
 
     shellAliases = {
-      rebuild = "sudo nixos-rebuild switch";
+      rebuild = "sudo nixos-rebuild switch --flake ~/nixConfigs";
       hms = "home-manager switch --flake ~/nixConfigs";
     };
 
