@@ -1,7 +1,7 @@
 {
   imports = [
     ./bash.nix
-    ./git.nix
+    #./git.nix
     ./i3.nix
     ./i3blocks.nix
     ./kitty.nix
