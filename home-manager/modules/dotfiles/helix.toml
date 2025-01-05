@@ -1,0 +1,28 @@
+theme = "onedark"
+
+[editor]
+mouse = false
+middle-click-paste = true
+cursorline = true
+auto-completion = true
+auto-info = true
+bufferline = "always"
+popup-border = "all"
+
+[editor.lsp]
+enable = true
+
+[editor.whitespace.render]
+Space = "all"
+tab = "all"
+nbsp = "none"
+nnbsp = "none"
+newline = "none"
+
+[editor.whitespace.characters]
+space = "·"
+nbsp = "⍽"
+nnbsp = "␣"
+tab = "→"
+newline = "⏎"
+tabpad = "·"

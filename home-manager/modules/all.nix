@@ -7,5 +7,6 @@
     ./picom.nix
     ./rofi.nix
     ./zsh.nix
+    ./helix.nix
   ];
 }
