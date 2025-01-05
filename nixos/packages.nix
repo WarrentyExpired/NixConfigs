@@ -36,9 +36,7 @@
     firefox
     xdotool
     xorg.xmodmap
-    ## Newly installed 
     xonsh
-    zoxide
     autorandr
     arandr
     python3
@@ -47,6 +45,7 @@
     python312Packages.netifaces
     python312Packages.pip
     eza
+    helix
     ];
 
   programs.thunar.enable = true;
