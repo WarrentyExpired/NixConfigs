@@ -46,6 +46,8 @@
     python312Packages.pip
     eza
     helix
+    neovim
+    gcc
     ];
 
   programs.thunar.enable = true;
