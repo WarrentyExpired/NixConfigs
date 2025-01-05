@@ -48,6 +48,7 @@
     helix
     neovim
     gcc
+    ghostty
     ];
 
   programs.thunar.enable = true;
