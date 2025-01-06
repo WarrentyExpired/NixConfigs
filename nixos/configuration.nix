@@ -21,6 +21,11 @@
   # Enable networking
   networking.networkmanager.enable = true;
 
+  # bluetooth
+  services.blueman.enable = true;
+  hardware.bluetooth.enable = true;
+  hardware.bluetooth.powerOnBoot = true;
+
   # Set your time zone.
   time.timeZone = "America/New_York";
 

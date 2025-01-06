@@ -24,8 +24,6 @@
     sysstat
     i3
     i3status
-    #i3lock
-    #i3lock-fancy
     i3blocks
     rofi
     picom
@@ -48,7 +46,8 @@
     helix
     neovim
     gcc
-    ghostty
+    vlc
+    discord
     ];
 
   programs.thunar.enable = true;
