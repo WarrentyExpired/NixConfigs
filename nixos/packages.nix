@@ -48,6 +48,8 @@
     gcc
     vlc
     discord
+    vimPlugins.lazygit-nvim
+    vimPlugins.fzfWrapper
     ];
 
   programs.thunar.enable = true;
