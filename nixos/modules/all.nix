@@ -1,0 +1,3 @@
+{
+  imports = [
+    ./nixvim/nixvim.nix

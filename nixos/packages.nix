@@ -50,8 +50,11 @@
     discord
     vimPlugins.lazygit-nvim
     vimPlugins.fzfWrapper
+    thonny
+    nix-ld
     ];
 
+  programs.neovim.withNodeJs = true;
   programs.thunar.enable = true;
   programs.thunar.plugins = with pkgs.xfce; [
     thunar-archive-plugin

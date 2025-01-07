@@ -4,6 +4,7 @@
   imports = [
       ./hardware-configuration.nix
       ./packages.nix
+      ./modules/all.nix
     ];
 
   # Setup Flakes
